@@ -1,9 +1,9 @@
 import React from 'react';
-import About from './components/About';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
-import Contact from './components/Contact';
-import { capitalizeFirstLetter } from '../../utils/helpers'
+import About from '../About';
+import Portfolio from '../Portfolio';
+import Resume from '../Resume';
+import Contact from '../Contact';
+import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Section({ currentSection }) {
   const displaySection = () => {
@@ -22,7 +22,7 @@ function Section({ currentSection }) {
 return (
   <section>
     <h2>{capitalizeFirstLetter(currentSection.name)}</h2>
-    {displaySection()}
+      {displaySection()}
   </section>
 );
 }

@@ -9,19 +9,19 @@ function App() {
   const [sections] = useState([
     { name: "about" },
     { name: "portfolio" },
-    { name: "resume" },
-    { name: "contact" }
-  ])
+    { name: "contact" },
+    { name: "resume" }
+  ]);
 
-  const [currentSection, setCurrentSection] = useState();
+  const [currentSection, setCurrentSection] = useState(sections[0]);
 
   return (
-    <div className="App">
+    <div>
       <Header>
         <Nav
-        sections={sections}
-        currentSection={currentSection}
-        setCurrentSection={setCurrentSection}
+          pages={sections}
+          setCurrentSection={setCurrentSection}
+          currentSection={currentSection}
         ></Nav>
       </Header>
       <main>
