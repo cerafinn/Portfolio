@@ -121,7 +121,7 @@ button {
   display: inline-grid;
   column-gap: 10px;
   row-gap: 10px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(6, 1fr);
   grid-template-rows: minmax(150px, 1fr);
   grid-auto-flow: row;
 }

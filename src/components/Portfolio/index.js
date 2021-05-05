@@ -6,37 +6,37 @@ function Portfolio() {
       name: 'Reward Bank',
       repo: 'reward-bank',
       deployed: 'https://rocky-dawn-18669.herokuapp.com/#',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Project',
     },
     {
       name: 'Covid Dashboard',
       repo: 'covid-dashboard-application',
       deployed: 'https://runtime-terrors-organization.github.io/covid-dashboard-application/',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Project',
     },
     {
       name: 'Code Quiz',
       repo: 'code-quiz',
       deployed: 'https://cerafinn.github.io/code-quiz',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'JavaScript',
     },
     {
       name: 'Day Scheduler',
       repo: 'day-scheduler',
       deployed: 'https://cerafinn.github.io/day-scheduler/',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'jQuery',
     },
     {
       name: 'Horiseon',
       repo: 'horiseon',
       deployed: 'https://cerafinn.github.io/Horiseon/',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'Code Refactor',
     },
     {
       name: 'Run Buddy',
       repo: 'run-buddy',
       deployed: 'https://cerafinn.github.io/run-buddy/',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie',
+      description: 'HTML/CSS',
     }
   ]);
 
