@@ -28,19 +28,15 @@ function Resume() {
     <div className>
       <h2>proficiencies;;</h2>
       <section className="row">
-        <div className="col-md">
-          <ul>
+        <div className="col-md technology">
             {frontendTechnologies.map(technology => (
-            <li><i className={technology.icon}></i></li>
+            <span><i className={`tech ${technology.icon}`}></i></span>
             ))}
-          </ul>
         </div>
-        <div className="col-md">
-          <ul>
+        <div className="col-md technology">
             {backendTechnologies.map(technology => (
-            <li><i className={technology.icon}></i></li>
+            <span><i className={`tech ${technology.icon}`}></i></span>
             ))}
-          </ul>
         </div>
         <div className="col-md">
           You can find my resume <a href="/">here</a>
