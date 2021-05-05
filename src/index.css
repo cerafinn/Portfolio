@@ -87,6 +87,10 @@ label {
   margin: 10px 0;
 }
 
+input {
+  color: white;
+}
+
 textarea {
   height: 150px;
 }
