@@ -42,8 +42,8 @@ function Portfolio() {
 
   return (
     <div>
-      <h2>projects;;</h2>
-      <div>
+      <h1>projects;;</h1>
+      <div className="content">
         
       </div>
     </div>

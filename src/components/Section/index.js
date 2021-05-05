@@ -23,9 +23,7 @@ function Page({ currentSection }) {
   };
 
   return (
-    <section>
       <Body>{renderPage()}</Body>
-    </section>
   );
 }
 export default Page;

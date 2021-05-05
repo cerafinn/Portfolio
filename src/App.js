@@ -9,8 +9,8 @@ function App() {
   const [sections] = useState([
     { name: "about" },
     { name: "portfolio" },
-    { name: "contact" },
-    { name: "resume" }
+    { name: "resume" },
+    { name: "contact" }
   ]);
 
   const [currentSection, setCurrentSection] = useState(sections[0]);

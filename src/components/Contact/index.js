@@ -37,27 +37,29 @@ function Contact() {
 
   return (
     <section>
-      <h2>reach out;;</h2>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" defaultValue={name} onChange={handleChange} name="name" />
-        </div>
-        <div>
-          <label htmlFor="email">Email Address:</label>
-          <input type="email" onChange={handleChange} name="email" defaultValue={email} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea type="message" onChange={handleChange} defaultValue={message} rows="5" />
-        </div>
-        {errorMessage && (
+      <h1>reach out;;</h1>
+      <div className="content">
+        <form id="contact-form" onSubmit={handleSubmit}>
           <div>
-            <p className="error-text ">{errorMessage}</p>
+            <label htmlFor="name">Name:</label>
+            <input type="text" defaultValue={name} onChange={handleChange} name="name" />
           </div>
-        )}
-        <button type="submit" data-testid="submit">Submit</button>
-      </form>
+          <div>
+            <label htmlFor="email">Email Address:</label>
+            <input type="email" onChange={handleChange} name="email" defaultValue={email} />
+          </div>
+          <div>
+            <label htmlFor="message">Message:</label>
+            <textarea type="message" onChange={handleChange} defaultValue={message} rows="5" />
+          </div>
+          {errorMessage && (
+            <div>
+              <p className="error-text ">{errorMessage}</p>
+            </div>
+          )}
+          <button type="submit" data-testid="submit" className="btn btn-secondary btn-lg">Submit</button>
+        </form>
+      </div>
     </section>
   )
 }
