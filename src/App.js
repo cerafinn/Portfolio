@@ -2,11 +2,8 @@ import React, {useState} from 'react';
 import './App.css';
 import Header from './components/Header';
 import Nav from './components/Nav';
-import About from './components/About';
-import Contact from './components/Contact';
+import Section from './components/Section';
 import Footer from './components/Footer';
-import Portfolio from './components/Portfolio';
-import Resume from './components/Resume';
 
 function App() {
   const [sections] = useState([
@@ -20,14 +17,13 @@ function App() {
 
   return (
     <div className="App">
-      <Header>
+      <Header
+
+      >
         <Nav></Nav>
       </Header>
       <main>
-        <About />
-        <Contact />
-        <Portfolio />
-        <Resume />
+        <Section currentSection={currentSection}></Section>
       </main>
       <Footer />
     </div>
