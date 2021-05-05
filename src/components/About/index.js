@@ -3,11 +3,9 @@ import React from 'react';
 function About() {
   return (
     <section>
-      <div className="profile-img">
-
-      </div>
       <div>
         <h1 id="about">i am;;</h1>
+        <div className="profile-img"><img src={require(`../../assets/images/profile.jpg`).default} alt="profile"/></div>
         <div className="content">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum mattis ullamcorper velit sed ullamcorper. Interdum velit euismod in pellentesque massa placerat. Nisi lacus sed viverra tellus in hac. Sagittis nisl rhoncus mattis rhoncus urna neque viverra. Consequat mauris nunc congue nisi vitae. Pretium viverra suspendisse potenti nullam ac tortor vitae purus faucibus. Sagittis orci a scelerisque purus semper eget duis. Cras adipiscing enim eu turpis egestas pretium. Tincidunt eget nullam non nisi est sit amet facilisis magna. Nam at lectus urna duis convallis convallis. Eu lobortis elementum nibh tellus molestie nunc non blandit. Volutpat ac tincidunt vitae semper quis lectus nulla at. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et.</p>
 
