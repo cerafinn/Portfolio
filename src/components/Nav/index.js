@@ -21,24 +21,22 @@ function Nav(props) {
           <ul class="right hide-on-med-and-down">
           {sections.map((section) => (
             <li className={`mx-1 ${currentSection === section.name && 'navActive'}`} key={section.name}>
-              <span onClick={() => {
-                setCurrentSection(section);
-              }} >{capitalizeFirstLetter(section.name)}</span>
+              <span onClick={() => {setCurrentSection(section);}} >{capitalizeFirstLetter(section.name)}</span>
             </li>
           ))}
           </ul>
         </div>
       </nav>
 
-  <ul class="sidenav" id="mobile-demo">
-  {sections.map((section) => (
-    <li className={`mx-1 ${currentSection === section.name && 'navActive'}`} key={section.name}>
-    <span onClick={() => {
-    setCurrentSection(section);
-    }} >{capitalizeFirstLetter(section.name)}</span>
-    </li>
-  ))}
-  </ul>
+      <ul class="sidenav" id="mobile-demo">
+      {sections.map((section) => (
+        <li className={`mx-1 ${currentSection === section.name && 'navActive'}`} key={section.name}>
+        <span onClick={() => {
+        setCurrentSection(section);
+        }} >{capitalizeFirstLetter(section.name)}</span>
+        </li>
+      ))}
+      </ul>
     </div>
   );
 }
