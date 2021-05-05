@@ -22,7 +22,7 @@ function Section({ currentSection }) {
 return (
   <section>
     <h2>{capitalizeFirstLetter(currentSection.name)}</h2>
-      {displaySection()}
+      {displaySection(currentSection)}
   </section>
 );
 }

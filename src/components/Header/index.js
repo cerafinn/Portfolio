@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Header() {
+function Header(props) {
   return (
     <div>
-      bananas
+      {props.children}
     </div>
   )
 }

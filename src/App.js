@@ -19,7 +19,7 @@ function App() {
     <div>
       <Header>
         <Nav
-          pages={sections}
+          sections={sections}
           setCurrentSection={setCurrentSection}
           currentSection={currentSection}
         ></Nav>
