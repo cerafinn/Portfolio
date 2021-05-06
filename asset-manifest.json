@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.a598cdb2.chunk.css",
-    "main.js": "/static/js/main.bdc47499.chunk.js",
-    "main.js.map": "/static/js/main.bdc47499.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.93b83e13.js",
-    "runtime-main.js.map": "/static/js/runtime-main.93b83e13.js.map",
+    "main.css": "/static/css/main.f8cb10a3.chunk.css",
+    "main.js": "/static/js/main.59f74889.chunk.js",
+    "main.js.map": "/static/js/main.59f74889.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2bdcb878.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2bdcb878.js.map",
     "static/js/2.78fad7cd.chunk.js": "/static/js/2.78fad7cd.chunk.js",
     "static/js/2.78fad7cd.chunk.js.map": "/static/js/2.78fad7cd.chunk.js.map",
-    "static/js/3.fc1d33a6.chunk.js": "/static/js/3.fc1d33a6.chunk.js",
-    "static/js/3.fc1d33a6.chunk.js.map": "/static/js/3.fc1d33a6.chunk.js.map",
+    "static/js/3.0ef8eafd.chunk.js": "/static/js/3.0ef8eafd.chunk.js",
+    "static/js/3.0ef8eafd.chunk.js.map": "/static/js/3.0ef8eafd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a598cdb2.chunk.css.map": "/static/css/main.a598cdb2.chunk.css.map",
+    "static/css/main.f8cb10a3.chunk.css.map": "/static/css/main.f8cb10a3.chunk.css.map",
     "static/js/2.78fad7cd.chunk.js.LICENSE.txt": "/static/js/2.78fad7cd.chunk.js.LICENSE.txt",
     "static/media/code-quiz.png": "/static/media/code-quiz.c0ce2bf1.png",
     "static/media/covid-dashboard-application.png": "/static/media/covid-dashboard-application.8de84601.png",
@@ -18,14 +18,15 @@
     "static/media/horiseon.png": "/static/media/horiseon.8fa4e13d.png",
     "static/media/password-generator.png": "/static/media/password-generator.95d8183a.png",
     "static/media/profile.jpg": "/static/media/profile.c1b51957.jpg",
+    "static/media/resume.docx": "/static/media/resume.49aa3879.docx",
     "static/media/reward-bank.png": "/static/media/reward-bank.b1346a99.png",
     "static/media/run-buddy.png": "/static/media/run-buddy.78ba8c8e.png",
     "static/media/taskinator.png": "/static/media/taskinator.9f94808d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.93b83e13.js",
+    "static/js/runtime-main.2bdcb878.js",
     "static/js/2.78fad7cd.chunk.js",
-    "static/css/main.a598cdb2.chunk.css",
-    "static/js/main.bdc47499.chunk.js"
+    "static/css/main.f8cb10a3.chunk.css",
+    "static/js/main.59f74889.chunk.js"
   ]
 }
