@@ -50,7 +50,7 @@ function Portfolio() {
               <img src={require(`../../assets/projects/${project.repo}.png`).default} alt={project.name} className="project-img" />
             <div className="project-info">
               <h3>
-                <a href={project.deployed}>{project.name}</a>{' - '}<a href={project.repo}>Repo</a>
+                <a href={project.deployed} target="_blank" rel="noreferrer">{project.name}</a>{' - '}<a href={`https://github.com/cerafinn/${project.repo}`} target="_blank" rel="noreferrer">Repo</a>
               </h3>
               <p>{project.description}</p>
             </div>
