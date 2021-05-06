@@ -46,7 +46,9 @@ Repo Link: [Repo Link](https://github.com/cerafinn/react-portfolio)
 
 ## Screenshots
 
+![Screenshot](./src/assets/images/portfolio-screenshot.png)
 
+![Screenshot](./src/assets/images/portfolio-vid.gif)
 
 <br />
 
