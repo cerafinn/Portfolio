@@ -48,8 +48,9 @@ code {
   padding: 5px 25px 10px 25px;
 }
 
-navActive {
+.navActive, .nameLink:hover {
   color: var(--bgcolor);
+  font-weight: 700;
 }
 
 li {

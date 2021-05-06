@@ -20,7 +20,9 @@ function Nav(props) {
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
           {sections.map((section) => (
-            <li className={`mx-1 mainEl ${currentSection === section.name && 'navActive'}`} key={section.name}>
+            <li className={`mainEl ${
+              currentSection.name === section.name && 'navActive font-weight-bold'
+              }`} key={section.name}>
               <span onClick={() => {setCurrentSection(section);}} >{capitalizeFirstLetter(section.name)}</span>
             </li>
           ))}
