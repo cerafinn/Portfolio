@@ -81,6 +81,10 @@ main {
   font-size: 64px;
 }
 
+.resume {
+  color: var(--primary)
+}
+
 footer {
   display: flex;
   justify-content: space-evenly;
@@ -101,6 +105,7 @@ input {
 
 textarea {
   height: 150px;
+  color: white;
 }
 
 button {

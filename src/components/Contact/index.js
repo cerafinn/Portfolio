@@ -17,7 +17,7 @@ function Contact() {
       }
     } else {
       if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
+        setErrorMessage(`Error: ${e.target.name} is required.`);
         console.log('errorMessage', errorMessage);
       } else {
         setErrorMessage('');
@@ -50,7 +50,7 @@ function Contact() {
           </div>
           <div>
             <label htmlFor="message">Message:</label>
-            <textarea type="message" onChange={handleChange} defaultValue={message} rows="5" />
+            <textarea type="message" onChange={handleChange} name="message" defaultValue={message} rows="5" />
           </div>
           {errorMessage && (
             <div>

@@ -38,8 +38,8 @@ function Resume() {
             <span><i className={`tech ${technology.icon}`}></i></span>
             ))}
         </div>
-        <div className="col-md">
-          You can find my resume <a href="/">here</a>
+        <div className="col-md text-center">
+          You can find my resume <a className="resume" href={require("../../assets/files/resume.docx").default} download>here</a>
         </div>
       </section>
     </div>
