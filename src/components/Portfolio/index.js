@@ -43,14 +43,15 @@ function Portfolio() {
       link: 'https://github.com/cerafinn/horiseon',
       deployed: 'https://cerafinn.github.io/Horiseon/',
       description: 'Code Refactor',
-    },
-    {
-      name: 'Run Buddy',
-      repo: 'run-buddy',
-      link: 'https://github.com/cerafinn/run-buddy',
-      deployed: 'https://cerafinn.github.io/run-buddy/',
-      description: 'HTML/CSS',
     }
+    // ,
+    // {
+    //   name: 'Run Buddy',
+    //   repo: 'run-buddy',
+    //   link: 'https://github.com/cerafinn/run-buddy',
+    //   deployed: 'https://cerafinn.github.io/run-buddy/',
+    //   description: 'HTML/CSS',
+    // }
   ]);
 
   return (

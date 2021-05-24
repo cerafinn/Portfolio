@@ -184,3 +184,11 @@ transition: all .3s ease-in-out;
 .project-info a:hover {
 color: var(--primary);
 }
+
+#toast-container {
+  color: var(--primary);
+}
+
+.toast {
+  border-radius: 25px;
+}
