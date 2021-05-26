@@ -41,7 +41,7 @@ function Portfolio() {
       name: 'Horiseon',
       repo: 'horiseon',
       link: 'https://github.com/cerafinn/horiseon',
-      deployed: 'https://cerafinn.github.io/Horiseon/',
+      deployed: 'https://cerafinn.github.io/horiseon/',
       description: 'Code Refactor',
     },
     {
