@@ -51,6 +51,14 @@ function Portfolio() {
       deployed: 'https://cerafinn.github.io/run-buddy/',
       description: 'HTML/CSS',
     }
+    // ,
+    // {
+    //   name: '',
+    //   repo: '',
+    //   link: '',
+    //   deployed: '',
+    //   description: '',
+    // }
   ]);
 
   return (
