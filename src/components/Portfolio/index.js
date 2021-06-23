@@ -8,7 +8,7 @@ function Portfolio() {
       link: 'https://github.com/DJ-KARMA/currenseed',
       deployed: 'https://currenseed.herokuapp.com/',
       description: '',
-      technologies: ''
+      technologies: 'React, Redux, GraphQL, Express, MongoDB, Mongoose, Apollo, Bcrypt, Stripe, JSON Web Tokens, Chakra.ui'
     },
     {
       name: 'Reward Bank',
@@ -16,7 +16,7 @@ function Portfolio() {
       link: 'https://github.com/UTBootCampGroup2Project2/reward-bank',
       deployed: 'https://rocky-dawn-18669.herokuapp.com/#',
       description: 'Project',
-      technologies: ''
+      technologies: 'Express, Handlebars, MySQL, Sequelize, HTML, CSS, JavaScript, BootStrap'
     },
     {
       name: 'Covid Dashboard',
@@ -31,32 +31,32 @@ function Portfolio() {
       repo: 'code-quiz',
       link: 'https://github.com/cerafinn/code-quiz',
       deployed: 'https://cerafinn.github.io/code-quiz',
-      description: 'JavaScript',
-      technologies: ''
+      description: '',
+      technologies: 'HTML, CSS, JavaScript, LocalStorage, Web APIs'
     },
     {
       name: 'Day Scheduler',
       repo: 'day-scheduler',
       link: 'https://github.com/cerafinn/day-scheduler',
       deployed: 'https://cerafinn.github.io/day-scheduler/',
-      description: 'jQuery',
-      technologies: ''
+      description: '',
+      technologies: 'HTML CSS, JavaScript, jQuery, BootStrap, Moment'
     },
     {
       name: 'Horiseon',
       repo: 'horiseon',
       link: 'https://github.com/cerafinn/horiseon',
       deployed: 'https://cerafinn.github.io/horiseon/',
-      description: 'Code Refactor',
-      technologies: ''
+      description: '',
+      technologies: 'HTML, CSS'
     },
     {
       name: 'Run Buddy',
       repo: 'run-buddy',
       link: 'https://github.com/cerafinn/run-buddy',
       deployed: 'https://cerafinn.github.io/run-buddy/',
-      description: 'HTML/CSS',
-      technologies: ''
+      description: '',
+      technologies: 'HTML, CSS'
     }
     // ,
     // {
