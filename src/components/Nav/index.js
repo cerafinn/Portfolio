@@ -16,7 +16,7 @@ function Nav(props) {
     <div>
       <nav>
         <div class="nav-wrapper">
-          <a href="#!" class="brand-logo nameLink">Andaleeb Farooq</a>
+          <span class="brand-logo nameLink"><img src={require(`../../assets/images/nav-img.png`).default} alt="nav-img" className="nav-img"/></span>
           <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
           {sections.map((section) => (
