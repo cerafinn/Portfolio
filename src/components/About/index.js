@@ -8,7 +8,10 @@ function About() {
         <h1 className="mb-3" id="about">i am;;</h1>
         <h2 className="mx-3">Andaleeb Farooq</h2>
         <div className="content">
-          <p>Hello and welcome!</p>
+          <p>Welcome!</p>
+          
+          <p></p>
+
           <p>Feel free to reach out to know more or to chat!</p>
         </div>
       </div>

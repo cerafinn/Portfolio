@@ -184,7 +184,8 @@ border: 10px solid var(--secondary);
 }
 
 .project-info h3 {
-font-size: 1.5rem;
+font-size: 2rem;
+text-align: center;
 }
 
 .project-info a {
