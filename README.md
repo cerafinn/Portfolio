@@ -27,9 +27,9 @@ Website portfolio for Andaleeb Farooq, including links to deployed websites for 
 
 You can find the deployed link and the repository link below:
 
-Deployed Link: [Deployed Link](https://cerafinn.github.io/react-portfolio)
+Deployed Link: [Deployed Link](https://cerafinn.github.io/portfolio)
 
-Repo Link: [Repo Link](https://github.com/cerafinn/react-portfolio)
+Repo Link: [Repo Link](https://github.com/cerafinn/portfolio)
 
 <br />
 
