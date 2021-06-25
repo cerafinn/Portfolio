@@ -15,10 +15,10 @@ function Nav(props) {
   return (
     <div>
       <nav>
-        <div class="nav-wrapper">
-          <span class="brand-logo nameLink"><img src={require(`../../assets/images/nav-img.png`).default} alt="nav-img" className="nav-img"/></span>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-          <ul class="right hide-on-med-and-down">
+        <div className="nav-wrapper">
+          <span className="brand-logo nameLink"><img src={require(`../../assets/images/nav-img.png`).default} alt="nav-img" className="nav-img"/></span>
+          <a href="#" data-target="mobile-demo" className="sidenav-trigger"><i className="material-icons">menu</i></a>
+          <ul className="right hide-on-med-and-down">
           {sections.map((section) => (
             <li className={`mainEl ${
               currentSection.name === section.name && 'navActive font-weight-bold'
@@ -30,7 +30,7 @@ function Nav(props) {
         </div>
       </nav>
 
-      <ul class="sidenav" id="mobile-demo">
+      <ul className="sidenav" id="mobile-demo">
       {sections.map((section) => (
         <li className={`mx-1 sideEl ${currentSection === section.name && 'navActive'}`} key={section.name}>
         <span onClick={() => {

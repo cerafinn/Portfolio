@@ -13,15 +13,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bgcolor);
   color: var(--text);
+  font-size: 16px;
 }
 
 h1 {
-  font-family: 'Major Mono Display', monospace;
   margin-bottom: 40px;
 }
 
-h2 {
+h1, h2, h3 {
   font-family: 'Major Mono Display', monospace;
+}
+
+h3 {
+  /* border-bottom: 1px solid var(--text); */
+  text-decoration: underline;
+  font-size: 20px;
+  grid-column: span 3;
 }
 
 a {
@@ -45,7 +52,7 @@ code {
 }
 
 .content {
-  margin: 25px;
+  margin: 40px;
 }
 
 .nav-wrapper {
@@ -90,7 +97,7 @@ main {
   display: inline-grid;
   column-gap: 20px;
   row-gap: 30px;
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: 40px repeat(3, 1fr);
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -164,8 +171,14 @@ button {
   width: 100%;
 }
 
+.project-link {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
 .project-info {
-  color: var(--secondary);
+  color: var(--bgcolor);
+  font-size:14px;
   position: absolute;
   top: 0px;
   bottom: 0px;
@@ -196,5 +209,12 @@ transition: all .3s ease-in-out;
 }
 
 .project-info a:hover {
-color: var(--primary);
+color: var(--bgcolor);
+}
+
+@media (max-width: 768px) {
+  .technology {
+    margin-bottom: 60px;
+    row-gap: 10px;
+  }
 }

@@ -27,21 +27,23 @@ function Resume() {
   return (
     <div>
       <h1>proficiencies;;</h1>
-      <section className="row content">
-        <div className="col-md technology">
-            {frontendTechnologies.map(technology => (
-            <span><i className={`tech ${technology.icon}`}></i></span>
-            ))}
-        </div>
-        <div className="col-md technology">
-            {backendTechnologies.map(technology => (
-            <span><i className={`tech ${technology.icon}`}></i></span>
-            ))}
-        </div>
-        <div className="col-md text-center">
-          You can find my resume <a className="resume" href={require("../../assets/files/resume.docx").default} download>here</a>
-        </div>
-      </section>
+        <section className="row content">
+          <div className="col-md technology">
+            <h3>frontend technologies;;</h3>
+              {frontendTechnologies.map(technology => (
+              <span><i className={`tech ${technology.icon}`}></i></span>
+              ))}
+          </div>
+          <div className="col-md technology">
+            <h3>backend technologies;;</h3>
+              {backendTechnologies.map(technology => (
+              <span><i className={`tech ${technology.icon}`}></i></span>
+              ))}
+          </div>
+          <div className="col-md text-center mb-3">
+            You can find my resume <a className="resume" href={require("../../assets/files/resume.docx").default} download>here</a>
+          </div>
+        </section>
     </div>
   )
 }
