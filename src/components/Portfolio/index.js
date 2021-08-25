@@ -7,7 +7,7 @@ function Portfolio() {
       repo: 'currenseed',
       link: 'https://github.com/DJ-KARMA/currenseed',
       deployed: 'https://currenseed.herokuapp.com/',
-      description: "An online farmer's market that lets local vendors connect with local shoppers.",
+      description: "An online farmer's market where transactions are processed using a unique digital currency while also working to give local vendors exposure to local shoppers and other local vendors.",
       technologies: 'React, Redux, GraphQL, Express, MongoDB, Mongoose, Apollo, Bcrypt, Stripe, JSON Web Tokens, Chakra.ui'
     },
     {
@@ -87,6 +87,11 @@ function Portfolio() {
             </div>
           ))}
         </div>
+      </div>
+
+      <h1>github;;</h1>
+      <div className="contributions">
+        <img src={"https://ghchart.rshah.org/0b867c/cerafinn"} id="github-contributions" alt="github"/>
       </div>
     </div>
   )

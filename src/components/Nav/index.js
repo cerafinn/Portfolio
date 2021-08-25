@@ -32,7 +32,7 @@ function Nav(props) {
 
       <ul className="sidenav" id="mobile-demo">
       {sections.map((section) => (
-        <li className={`mx-1 sideEl ${currentSection === section.name && 'navActive'}`} key={section.name}>
+        <li className={`mx-1 sideEl ${currentSection === section.name && 'navActive '} sidenav-close`} key={section.name}>
         <span onClick={() => {
         setCurrentSection(section);
         }} >{capitalizeFirstLetter(section.name)}</span>
