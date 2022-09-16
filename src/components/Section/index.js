@@ -9,7 +9,7 @@ function Page({ currentSection }) {
 
   const renderPage = () => {
     switch (currentSection.name) {
-      case 'about me':
+      case 'about':
         return <About />;
       case 'portfolio':
         return <Portfolio />;
@@ -26,4 +26,5 @@ function Page({ currentSection }) {
       <Body>{renderPage()}</Body>
   );
 }
+
 export default Page;
