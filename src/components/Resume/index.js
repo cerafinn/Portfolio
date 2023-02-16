@@ -5,11 +5,14 @@ function Resume() {
     { name: "HTML" , icon: "devicon-html5-plain-wordmark" },
     { name: "CSS" , icon: "devicon-css3-plain-wordmark" },
     { name: "JS" , icon: "devicon-javascript-plain" },
+    { name: "TS" , icon: "devicon-typescript-plain" },
     { name: "Heroku" , icon: "devicon-heroku-plain-wordmark" },
     { name: "Express" , icon: "devicon-express-original-wordmark" },
     { name: "Handlebars" , icon: "devicon-handlebars-plain-wordmark" },
     { name: "React" , icon: "devicon-react-original-wordmark" },
-    // { name: "" , icon: "" },
+    { name: "Angular" , icon: "devicon-angularjs-plain" },
+
+    // { name: "" , icon: "devicon-" },
   ]
 
   const backendTechnologies = [
@@ -19,9 +22,14 @@ function Resume() {
     { name: "jQuery" , icon: "devicon-jquery-plain-wordmark" },
     { name: "MySQL" , icon: "devicon-mysql-plain" },
     { name: "MongoDB" , icon: "devicon-mongodb-plain-wordmark" },
+    { name: "Postgres" , icon: "devicon-postgresql-plain-wordmark" },
     { name: "NPM" , icon: "devicon-npm-original-wordmark" },
-    { name: "Git" , icon: "devicon-git-plain-wordmark" }
-    // { name: "" , icon: "" },
+    { name: "Git" , icon: "devicon-git-plain-wordmark" },
+    { name: "GraphQL" , icon: "devicon-graphql-plain-wordmark" },
+    { name: "Java" , icon: "devicon-java-plain" },
+    { name: "Spring" , icon: "devicon-spring-plain-wordmark" },
+    
+    // { name: "" , icon: "devicon-" },
   ]
 
   return (
