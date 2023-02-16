@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a2b7db70.chunk.css",
-    "main.js": "/portfolio/static/js/main.cb22dc6c.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.cb22dc6c.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.e579036c.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e579036c.js.map",
-    "static/js/2.78fad7cd.chunk.js": "/portfolio/static/js/2.78fad7cd.chunk.js",
-    "static/js/2.78fad7cd.chunk.js.map": "/portfolio/static/js/2.78fad7cd.chunk.js.map",
-    "static/js/3.0d810162.chunk.js": "/portfolio/static/js/3.0d810162.chunk.js",
-    "static/js/3.0d810162.chunk.js.map": "/portfolio/static/js/3.0d810162.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.89cac442.chunk.css",
+    "main.js": "/portfolio/static/js/main.d3adea67.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d3adea67.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b4237d09.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b4237d09.js.map",
+    "static/js/2.f2dd8ef7.chunk.js": "/portfolio/static/js/2.f2dd8ef7.chunk.js",
+    "static/js/2.f2dd8ef7.chunk.js.map": "/portfolio/static/js/2.f2dd8ef7.chunk.js.map",
+    "static/js/3.50df1ea9.chunk.js": "/portfolio/static/js/3.50df1ea9.chunk.js",
+    "static/js/3.50df1ea9.chunk.js.map": "/portfolio/static/js/3.50df1ea9.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.a2b7db70.chunk.css.map": "/portfolio/static/css/main.a2b7db70.chunk.css.map",
-    "static/js/2.78fad7cd.chunk.js.LICENSE.txt": "/portfolio/static/js/2.78fad7cd.chunk.js.LICENSE.txt",
+    "static/css/main.89cac442.chunk.css.map": "/portfolio/static/css/main.89cac442.chunk.css.map",
+    "static/js/2.f2dd8ef7.chunk.js.LICENSE.txt": "/portfolio/static/js/2.f2dd8ef7.chunk.js.LICENSE.txt",
     "static/media/code-quiz.png": "/portfolio/static/media/code-quiz.c0ce2bf1.png",
     "static/media/covid-dashboard-application.png": "/portfolio/static/media/covid-dashboard-application.8de84601.png",
     "static/media/currenseed.png": "/portfolio/static/media/currenseed.45581232.png",
@@ -20,15 +20,15 @@
     "static/media/nav-img.png": "/portfolio/static/media/nav-img.571699f8.png",
     "static/media/password-generator.png": "/portfolio/static/media/password-generator.95d8183a.png",
     "static/media/profile.jpg": "/portfolio/static/media/profile.c1b51957.jpg",
-    "static/media/resume.docx": "/portfolio/static/media/resume.7d4661a9.docx",
+    "static/media/resume.docx": "/portfolio/static/media/resume.200fd1c5.docx",
     "static/media/reward-bank.png": "/portfolio/static/media/reward-bank.b1346a99.png",
     "static/media/run-buddy.png": "/portfolio/static/media/run-buddy.78ba8c8e.png",
     "static/media/taskinator.png": "/portfolio/static/media/taskinator.9f94808d.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e579036c.js",
-    "static/js/2.78fad7cd.chunk.js",
-    "static/css/main.a2b7db70.chunk.css",
-    "static/js/main.cb22dc6c.chunk.js"
+    "static/js/runtime-main.b4237d09.js",
+    "static/js/2.f2dd8ef7.chunk.js",
+    "static/css/main.89cac442.chunk.css",
+    "static/js/main.d3adea67.chunk.js"
   ]
 }
